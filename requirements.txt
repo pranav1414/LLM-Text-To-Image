@@ -1,7 +1,0 @@
-streamlit
-openai
-transformers
-diffusers
-torch
-pillow
-matplotlib
