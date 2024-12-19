@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import torch
 import base64
 
-# Load Hugging Face Models with optimized settings
+# Hugging Face Models with optimized settings
 @st.cache_resource
 def load_models():
     # Load the text-to-text generation model (Hugging Face)
@@ -26,12 +26,12 @@ def load_models():
         image_gen_model = image_gen_model.to("cpu")  # Fallback to CPU if no GPU is available
     return llm_model, image_gen_model
 
-# Function to encode background image in base64
+# Function to encode background image in base64 (No need for any extrenal deployment of image)
 def get_base64_image(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
-# Function to apply background image and text color
+# Functions to apply background image and text color
 def add_custom_styles():
     image_path = "llm_banner.jpg"  # File is in the root directory
     base64_image = get_base64_image(image_path)
