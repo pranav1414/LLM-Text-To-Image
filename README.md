@@ -1,7 +1,9 @@
 # LLM Powered Text To Image
-This is an application which will help you generate images of anything you want , Just put what you want and see the magic !!
+This is an application which will help you generate images of anything you want , Just put what you want and see the magic !! 
 
 Welcome to the LLM Powered Text-to-Image Generator, a state-of-the-art web application that harnesses the power of large language models (LLMs) and cutting-edge image generation techniques to turn your ideas into stunning visual creations. Whether you're looking for conceptual art, creative designs, or visual interpretations of text, this application has you covered.
+
+# Try the application : https://aivisualalchemy.streamlit.app/
 
 # Key Features
 Text-to-Text Refinement:
