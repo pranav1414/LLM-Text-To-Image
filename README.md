@@ -73,7 +73,9 @@ Text-to-Text Refinement:
 
 # Credits
 Developed By: Pranav
+
 Technologies Used: Hugging Face Model, Python, Stable Diffusion, Streamlit
+
 Let your imagination run wild and bring your ideas to life with the LLM Powered Text-to-Image Generator! 🌟   
 
 
