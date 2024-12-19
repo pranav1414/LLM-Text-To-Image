@@ -51,24 +51,7 @@ Text-to-Text Refinement:
 # Why Use This Application?
 1) No External Dependencies: The background image is encoded directly into the application using base64, eliminating the need for external assets during deployment.
 2) Optimized for All Users: Designed to run efficiently on both GPU and CPU environments, making it accessible to a wide range of users.
-3) Modern Aesthetics: The app is styled with a sleek and professional look, including dynamic text colors and an engaging background.
-
-
-# How to Deploy
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/pranav1414/LLM-Text-To-Image.git
-cd LLM-Text-To-Image
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the application locally:
-bash
-Copy code
-streamlit run image.py
-Deploy it to Streamlit Cloud for public access.   
+3) Modern Aesthetics: The app is styled with a sleek and professional look, including dynamic text colors and an engaging background. 
 
 # Screenshots
 
