@@ -72,7 +72,7 @@ Text-to-Text Refinement:
 3) Advanced customization options for image resolution and styles etc
 
 # Credits
-Developed By: Pranav
+Developed By: Pranav Sonje
 
 Technologies Used: Hugging Face Model, Python, Stable Diffusion, Streamlit
 
